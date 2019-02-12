@@ -16,7 +16,7 @@
                 
         
         <target name="jar" depends="compile">
-                 <jar destfile=""${result.jar.file}">
+                 <jar destfile="${result.jar.file}">
                              <fileset dir="${result.javaclasses.dir}">
         
                   </fileset>
