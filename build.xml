@@ -1,6 +1,6 @@
 <project default="compile">
 
-<!--          <property name="src.java.dir" location ="./src/main/java/converter"/> -->
+        <property name="src.java.dir" location ="./Software/src/main"/> 
          <property name="src.test.dir"      location ="./src/main/test"/>
         
         <property name="result.dir"      location ="./target"/>
@@ -10,8 +10,8 @@
         
         <target name="compile">
                 <mkdir dir="${result.javaclasses.dir}"/>
-<!--                 <javac srcdir="${src.java.dir}" destdir="${result.javaclasses.dir}" debug="true"  includeantruntime="false"> -->
-<!--                 </javac> -->
+          <javac srcdir="${src.java.dir}" destdir="${result.javaclasses.dir}" debug="true"  includeantruntime="false"> 
+               </javac> 
              </target>
                 
         
